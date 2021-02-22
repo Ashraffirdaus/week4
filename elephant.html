@@ -1,51 +1,48 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Lets's start getting a little more fancy!</title>
+	<title>Elephant html</title>
+
 	<style type="text/css">
-		body{
-			font-family: sans-serif;
-			font-size: 1.125rem;
-			color: #707070;
-			margin: 0;
-		}
-		
-		h1{
-			font-size: 3rem;
-			color: #212614;			
-			text-align: center;
-		}
-		h1 span{
-			color: #B7832F;
-		}
-		h2{
-			font-size: 1.5rem;
-		}
-		img{
+		img {
 			width: 100%;
 			margin: auto;
 		}
 		.container {
 			max-width: 980px;
 			margin: 0px auto;
-			width: 95%;
+			width: 95%
+
+
 		}
-		.columns-top {
+		.columns {
 			display: flex;
-			flex-shrink: 5;
+			margin-bottom: 1em;
 			
 		}
-		.columns-btm {
-			display: flex;
-			flex-shrink: 5;
-			
+		
+		body {
+			font-size: 1.125rem;
+			color: #707070;
+			margin: 0;
+
 		}
-		.empty{
-			width: 100%;
-			height:1em;
+		h1{
+ 			font-size: 3rem;
+ 			color: #212614;
+ 			text-align: center;
+
 		}
-		.col-1{
+		h1	span{
+			color: #b7832f;
+		}
+		h2{
+			font-size: 1.5rem;
+		}
+		.col-1 {
 			width: 25%;
 			padding: .5em;
+
 		}
 		.col-2{
 			width: 50%;
@@ -55,11 +52,17 @@
 			width: 75%;
 			padding: .5em;
 		}
-		.col-bg{
-			background-color: #212614;
+		.col-bg {
+			background:#212614;
 			padding: .5em;
 			color: #fff;
 		}
+		p {
+			text-align: auto;
+		}
+
+
+
 	</style>
 </head>
 <body>
@@ -67,49 +70,44 @@
 	<h1>Let's start <span>getting a little</span> more fancy!</h1>
 	<img src="42609370_401.jpg">
 	<div class="empty">
-				</div>
+		
+	</div>
+		<div class="columns">
+		<div class=" col-1">
+        	<h2>Dolor site</h2>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+        </div>
+        <div class="col-2" >
+        	<h2>Consectetur adipiscing</h2>
+        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        	consequat. Duis aute irure dolor in </p>
+        </div>
+        <div class="col-bg col-1">
+        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+        </div>
+	</div>
+		<div class="empty">
+			
+		</div>
 	<div class="columns">
-	<!-- below is the first column -->
-		<div class="columns-top">
-		<div class="col-1">
-			<h2>Dolor sit</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat .</p>
-		</div>
-		<div class="col-2">
-			<h2>Consectur adipsing</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		   
-		   
-		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		    consequat. Duis aute irure dolor in</p>
-			
-		</div>
-		<div class="col-bg col-1">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat .</p>
-		</div>
-	</div>
-			<div class="empty">
-				</div>
-			
-	<!-- below is the second column -->
-	<div class="columns-btm">
-		<div class="col-3">
-			<h2>Descerunt mollit anime id est laborum</h2>
+	<div class="col col-3">
+			<h2>Deserunt mollit anim id est laborum</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -117,14 +115,15 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-		<div class="col-1 col-bg">
+		<div class="col col-bg col-1">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut.</p>
-		</div>	
+			tempor incididunt ut labore et dolore magna aliqua. Ut. </p>
+		</div>
 	</div>
-	<div class="empty">
-				</div>
+	<div empty="class">
+		
 	</div>
-</div>
+ </div>
+
 </body>
 </html>
